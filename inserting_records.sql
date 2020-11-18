@@ -1,6 +1,3 @@
-drop database glassdoor_data_analyst;
-create database glassdoor_data_analyst;
-use glassdoor_data_analyst;
 
 load data infile '/ProgramData/MySQL/MySQL Server 8.0/Uploads/glassdoor_data_analyst/states.csv' 
 into table states 
